@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Menu Makanan</title>
+	<link rel="stylesheet" type="text/css" href="tampilan.css">
+	<script src="apps.js"></script>
+</head>
+<body>
+	<div class="menu">
+    <center>
+        <h1>Pesanan</h1>
+        <table class="list" height="250" width="335" border="0" cellspacing="0" cellpadding="0">
+            <tr onclick="itemClick(this)" type="button">
+                <td width="156">Cappucino</td>
+                <td width="20">Rp</td>
+                <td width="99" align="right" class="price">35000</td>
+            </tr>
+            <tr onclick="itemClick(this)" type="button">
+                <td>Green Tea Latte</td>
+                <td>Rp</td>
+                <td width="99" align="right" class="price">40000</td>
+            </tr>
+            <tr onclick="itemClick(this)" type="button">
+                <td>Fish and Chips</td>
+                <td>Rp</td>
+                <td width="99" align="right" class="price">50000</td>
+            </tr>
+            <tr onclick="itemClick(this)" type="button">
+                <td>Tuna Sandwich</td>
+                <td>Rp</td>
+                <td width="99" align="right" class="price">45000</td>
+            </tr>
+            <tr onclick="itemClick(this)" type="button">
+                <td>Mineral Water</td>
+                <td>Rp</td>
+                <td width="99" align="right" class="price">8000</td>
+            </tr>
+            <tr onclick="itemClick(this)" type="button">
+                <td>French Fries</td>
+                <td>Rp</td>
+                <td width="99" align="right" class="price">18000</td>
+            </tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+            <tr>
+                <td colspan="4">Total :
+                    <input id='total' type="text" name="total" value="" readonly>
+                </td>
+            </tr>
+        </table>
+    </center>
+	</div>
+</body>
+</html>
